@@ -1,0 +1,33 @@
+* {
+  background-color: darkslategrey;
+  color: white;
+}
+
+.nav-left li,
+.nav-right li {
+  list-style: none;
+  text-decoration: none;
+}
+
+.nav-left li a,
+.nav-right li a {
+  text-decoration: none;
+}
+
+.footer-nav-left li,
+.footer-nav-right li {
+  list-style: none;
+  text-decoration: none;
+}
+
+.footer-nav-left li a,
+.footer-nav-right li a {
+  text-decoration: none;
+}
+
+img {
+  border-radius: 50%;
+  width: 25%;
+  height: auto;
+}
+/*# sourceMappingURL=styles.css.map */
