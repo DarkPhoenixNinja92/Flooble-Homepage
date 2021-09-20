@@ -87,15 +87,54 @@ input[type="search"] {
   bottom: 1.5rem;
 }
 
-.footer-nav-left,
-.footer-nav-right {
+.footer-nav-top,
+.footer-nav-bottom {
   list-style: none;
   text-decoration: none;
 }
 
-.footer-nav-left a,
-.footer-nav-right a {
+.footer-nav-top a,
+.footer-nav-bottom a {
   text-decoration: none;
+}
+
+footer {
+  margin-top: 5rem;
+  background-color: lightgray;
+}
+
+footer .privacy {
+  display: block;
+  position: relative;
+  left: 3.5rem;
+  top: 2rem;
+}
+
+footer .terms {
+  display: block;
+  position: relative;
+  left: 8rem;
+  top: 1rem;
+}
+
+footer .settings {
+  display: block;
+  position: relative;
+  left: 12rem;
+}
+
+footer .advertising {
+  display: block;
+  position: relative;
+  left: 4rem;
+  top: 0.35rem;
+}
+
+footer .business {
+  display: block;
+  position: relative;
+  left: 10rem;
+  bottom: 0.8rem;
 }
 
 img {
