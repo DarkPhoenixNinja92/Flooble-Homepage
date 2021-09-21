@@ -184,5 +184,19 @@ img {
     left: 5rem;
     bottom: 1rem;
   }
+  .pic {
+    width: 8%;
+    height: auto;
+    left: 31.5rem;
+    z-index: 1;
+  }
+  .floo {
+    left: 17rem;
+    bottom: 6rem;
+  }
+  .images {
+    left: 23rem;
+    bottom: 7.5rem;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
