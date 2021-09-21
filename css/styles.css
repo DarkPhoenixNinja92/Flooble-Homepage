@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 * {
   background-color: darkslategrey;
   color: white;
@@ -16,6 +17,11 @@
   margin-top: 135px;
 }
 
+header,
+footer {
+  font-family: 'Poppins', Arial;
+}
+
 .button {
   color: black;
   background-color: white;
@@ -26,6 +32,14 @@
 .money {
   margin-right: 125px;
   padding: 2%;
+}
+
+.button:hover {
+  background-color: #c6c6c6;
+}
+
+.button:active {
+  background-color: #acacac;
 }
 
 input[type="search"] {
@@ -56,7 +70,7 @@ input[type="search"] {
   display: block;
   position: relative;
   left: 18rem;
-  bottom: 0.5rem;
+  bottom: 1rem;
 }
 
 .about {
@@ -70,21 +84,21 @@ input[type="search"] {
   display: block;
   position: relative;
   left: 12rem;
-  bottom: 2rem;
+  bottom: 2.5rem;
 }
 
 .floo {
   display: block;
   position: relative;
   left: 5.8rem;
-  bottom: 0.3rem;
+  bottom: 1.9rem;
 }
 
 .images {
   display: block;
   position: relative;
   left: 12rem;
-  bottom: 1.5rem;
+  bottom: 3.5rem;
 }
 
 .footer-nav-top,
@@ -100,7 +114,6 @@ input[type="search"] {
 
 footer {
   margin-top: 5rem;
-  background-color: lightgray;
 }
 
 footer .privacy {
@@ -114,13 +127,14 @@ footer .terms {
   display: block;
   position: relative;
   left: 8rem;
-  top: 1rem;
+  top: 0.5rem;
 }
 
 footer .settings {
   display: block;
   position: relative;
-  left: 12rem;
+  left: 12.3rem;
+  bottom: 1rem;
 }
 
 footer .advertising {
@@ -133,13 +147,42 @@ footer .advertising {
 footer .business {
   display: block;
   position: relative;
-  left: 10rem;
-  bottom: 0.8rem;
+  left: 11rem;
+  bottom: 1.15rem;
+}
+
+.footer-div {
+  background-color: lightgray;
+}
+
+.button:hover,
+a,
+:hover .pic:hover {
+  cursor: pointer;
+}
+
+.about:hover,
+.store:hover,
+.floo:hover,
+.images:hover,
+.privacy:hover,
+.terms:hover,
+.settings:hover,
+.advertising:hover,
+.business:hover {
+  background-color: #999999;
 }
 
 img {
   border-radius: 50%;
   width: 15%;
   height: auto;
+}
+
+@media (min-width: 768px) {
+  .store {
+    left: 5rem;
+    bottom: 1rem;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
