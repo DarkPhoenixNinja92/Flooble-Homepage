@@ -241,4 +241,13 @@ img {
     z-index: 1;
   }
 }
+
+@media (min-width: 1024px) {
+  .search {
+    left: 10rem;
+  }
+  .money {
+    left: 26rem;
+  }
+}
 /*# sourceMappingURL=styles.css.map */

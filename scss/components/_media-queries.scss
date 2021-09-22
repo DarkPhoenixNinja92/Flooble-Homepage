@@ -61,4 +61,11 @@
     }
 }
 
-@media #{$brkDesktop} {}
+@media #{$brkDesktop} {
+    .search {
+        left: 10rem;
+    }
+    .money {
+        left: 26rem;
+    }
+}
