@@ -56,6 +56,17 @@ input {
   color: gray;
 }
 
+.box-grid {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.box-grid > div {
+  padding: 2rem 0.6rem;
+  background-color: #fff;
+}
+
 .pic {
   position: relative;
   width: 18%;
