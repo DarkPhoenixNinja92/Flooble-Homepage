@@ -31,7 +31,58 @@ form button {
   justify-content: space-between;
 }
 
+form {
+  padding-bottom: 2rem;
+}
+
+input {
+  border-radius: 15px;
+  padding: 0.5rem;
+}
+
 .pic {
-  width: 25%;
+  position: relative;
+  width: 18%;
   border-radius: 50%;
+  left: 12rem;
+  bottom: 2.3rem;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-left,
+.nav-right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.store {
+  position: relative;
+  right: 1.5rem;
+}
+
+.nav-right {
+  position: relative;
+  right: 3rem;
+  top: 2rem;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-nav-top,
+.footer-nav-bottom {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: gray;
+  padding: 2rem;
 }/*# sourceMappingURL=styles.css.map */
